@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Novaine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="golo.png">
+    <!-- Load an icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!------- home ------>
+<style>
+.banner-home{
+    width: 100%;
+    height: 95vh;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(p4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.h1{
+    color: white;
+    font-size: 100px;
+    font-family: Georgia, serif;
+    font-weight: 600;
+
+}
+.p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22p;
+    padding: 10px;
+    letter-spacing: 15PX;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.home-col{
+    flex-basis: 31%;
+    background: #1a1a1a;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+    color:whitesmoke;
+}
+.home-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+</style>
+</head>
+<body style="background-color: #000000;"> 
+    <div class="banner-home">
+        <div class="navbar">
+            <img src="golo.png" class="golo">
+            <ul>
+                <li><a href="file:///C:/Users/cutie/OneDrive/Desktop/Web%20Design/Index.html"><i class="fa fa-fw fa-home"> </i>Home</a> </li>
+                <li><a href="#p1"><i class="fa fa-fw fa-search"></i>Outfit</a> </li>
+                <li><a href="#p2"><i class="fa fa-fw fa-user"></i>About</a> </li>
+                <li><a href="#p3"><i class="fa fa-fw fa-envelope"></i>Social</a> </li>
+            </ul>
+        </div>
+        </div>
+        <div class="content">
+            <h1>Welcome to NOVAINE</h1>
+            <p1>WHERE GEMS OF THE PAST LIES ON</p1>
+        </div>
+    </div>
+</div>
+<main>
+<!------ home ------>
+
+<section id="file:///C:/Users/cutie/OneDrive/Desktop/Web%20Design/Index.html">
+<section class="home">
+     <h1 style="color:whitesmoke;  font-family: Georgia, serif; font-size:25px">FILIPINOS' 90s FASHION</h1>
+    <p style="text-align:center; font-size: 19px; letter-spacing: 10px;">OVERVIEW OF THE WEBSITE</p>
+        
+        <div class="row">
+        <div class="home-col">
+            <p>’90s fashion trends were heavily influenced by the rise of the internet and Style Network, a cable channel broadcasting beauty-centric shows. Suddenly, fashion was more accessible to everyone, and luxury brands like Versace and Tommy Hilfiger were no longer reserved for celebrities and the elite.</p>
+        </div>
+         <div class="home-col">
+            <p>Welcome to Novaine's Retro Vibe, your one-stop shop for everything 90s fashion. Browse our carefully chosen selections of retro-inspired apparel, accessories, and shoes that perfectly encapsulate 90s style. The greatest of 90s fashion is delivered directly to your closet with Novaine's designs, whether you're wanting to relive your favorite decade or find classic pieces. </p>
+        </div>
+          <div class="home-col">
+            <p>The ’90s was a golden era of pop culture and music. Known as the decade of technological innovation, multiculturalism, and reality TV, the ’90s sparked a wave of minimalist looks, self-expression, and nostalgia. It’s also the decade when hip-hop culture was at its peak.</p>   
+        </div>
+    </div>
+</section>
+</section>
+
+<!------- product ------> 
+<style>
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner-product{
+    width: 100%;
+    height: 89vh;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(p1.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.product{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.text {
+    width: 100%;
+    position: center;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.text h2 {
+    font-size: 80px;
+    font-family: Georgia, serif;
+    margin-top: 100px;
+}
+
+.text p{
+     margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 25px;
+    letter-spacing: 15px;
+}
+.h2{
+    color: white;
+    font-size: 100px;
+    font-family: Georgia, serif;
+    font-weight: 600;
+
+}
+.p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22p;
+    padding: 10px;
+    letter-spacing: 15PX;
+}
+/* The grid: three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 98%;
+  height: 98%;
+  padding: 10px;
+}
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  padding-left: 20px;
+}
+
+.center {
+    display: grid;
+    place-items: center;  /* Center both horizontally and vertically */
+    height: 100vh;  /* Full viewport height */
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: 98%;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 87%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+  text-align: justify;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+</style>
+<section id= "p1">
+        <div class="banner-product">
+        <section class="product">
+        <div class="text">
+            <h1 style="margin-top: 80px; font-size: 80px;">90s Inspired Outfit</h1>
+            <p1 style="font-size: 25px; letter-spacing: 15px; margin: 20px auto;">A FRESH TAKE OF NOSTALGIA</p1>
+        </div>
+    </div>
+<br>
+<br>
+<br>
+    <h1 style="color:whitesmoke;  font-family: Georgia, serif; font-size:25px; text-align: center;">SHOWCASING THE 90S STYLE OF FILIPINOS'</h1>
+    <br>
+    <p style="text-align:justify; font-size:20px; margin-left: 15px; margin-right: 15px;">With this classic Novaine collection, let's take a look back at the vivid and daring world of 90s fashion. Showcase the amazing fashion and transport us back to those moments when we were fascinated. Using these classic looks to capture the rebellious attitude of the 90s gives your wardrobe a nostalgic spin. This era remains a standout in the rich tapestry of Filipino fashion history, which illustrates how local identity can blend with global influences to create unique trends that resonate with the feeling of the time.
+ </p>
+    <br>
+    <br>
+    <p style="text-align:center;font-size: 15px;">Point the photo to show description</p>
+
+        <div class="row">
+            <div class="colum">
+                <div class="container">
+                <img src="pr1.jpg" class="image" style="width:98%; height:100.5%;">
+                <div class="overlay">Return to the 90s with this effortless look that blends grunge glamour and sophistication. Novaine’s collection of fuzzy black cardigans, perfectly layered over a sleek strapless black and black handbag with gold chain accents ties the outfit together, exuding timeless elegance. </div>
+                </div>
+            </div>
+
+            <div class="colum">
+                <div class="container">
+                <img src="pr2.jpg" class="image" style="width:98%; height:98%;">
+                <div class="overlay">Serving pure 90s realness. The sleeveless black vest brings an edgy, boyish charm, perfectly paired with high-waisted, relaxed-fit blue jeans that scream vintage vibes with a shoulder bag in warm leather tones adds retro flair. The subtle Norvaine's look came from a white gold watch and hoop earrings. The “ too cool to care” attitude of the 90s, timeless, bold, and unapologetically iconic.</div>
+                </div>
+            </div>
+
+            <div class="colum">
+                <div class="container">
+                <img src="pr3.jpg" class="image" style="width:98%; height:50%;">
+                <div class="overlay">The classic Norvaine’s 90s streetwear edge. The tomboy energy that the backward cap brings paired with a sleek black spaghetti-strap top for that minimalist edge. Gold hoops, a vintage shell bracelet, and a classic watch bring just the right throwback glam. The ultimate blend of Norvaine’s streetwear energy and timeless 90s chic—bold and carefree.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="colum">
+                <div class="container">
+                <img src="pr4.jpg" class="image" style="width:98%; height:98%;">
+                <div class="overlay">Channeling the 90s Norvaine’s bag & jewelry collection with a touch of modern elegance – this black leather clutch and gold accents bring back the bold and luxurious style of the decade. It's the epitome of bold sophistication, bringing back the iconic style of a decade that dared to be different.</div>       
+                </div>
+            </div>
+
+            <div class="colum">
+                <div class="container">
+                <img src="pr5.jpg" class="image" style="width:98%; height:98%;">
+                <div class="overlay">Bringing back that 90s swagger with a contemporary flair – laid-back, casual, and effortlessly cool. A sleek black leather clutch glistening with a hint of gold paired with a plush furry jacket that exudes opulence. Completing the look are timeless blue jeans and a minimalist black tank top, crowned with a backward cap for that unmistakable 90s swagger.  Embrace the era's bold spirit and let your style journey back in time.</div>
+                </div>
+            </div>
+
+             <div class="colum">
+                <div class="container">
+                <img src="pr6.jpg" class="image" style="width:98%; height:98%;">
+                <div class="overlay">Step back and look for these minimalist Novaine shoes, where durability and comfort are essential. This timeless shoes will elevate your outfit from casual wear to more elevated street looks.  Relive the magic of 90s fashion and be inspired with this timeless piece of shoes. </div>
+                </div>
+            </div>
+        </div>
+        <div class="row"> 
+             <div class="colum">
+                <div class="container">
+                <img src="pr7.jpg" class="image" style="width:98%; height:98%;">
+                <div class="overlay">Discover the Ruby Jane 01 from Novaine’s 2025 Jewelry Collection. This piece features square rimless eyeglasses in black acetate and is inspired by vintage fashion that will add a touch of nostalgia to your look.</div>
+                </div>
+            </div>
+
+            <div class="colum">
+                <div class="container">
+                <img src="pr10.jpg" class="image" style="width:98%; height:98%;">
+                <div class="overlay"> Rosé Sleeveless Top from Novaine. The slim fit and tailored design of this top create a flattering, feminine silhouette. The simple yet flattering design of this top makes it perfect for channeling minimalist 90s chic.</div>
+                </div>
+            </div>
+
+            <div class="colum">
+                <div class="container">
+                <img src="pr8.jpg" class="image" style="width:98%; height:98%;">
+                <div class="overlay">Embrace the warmth and the retro charm of the 90s with this long-sleeved cardigan knitted top. This top is made from a finely woven knit fabric that ensures a comfortable and flattering fit. This cardigan allows you to wear it fully buttoned up for a more polished look or leave it open for a more laid-back, layered style.</div>
+         </div>
+             </div>
+            
+    </div>   
+    </div>
+</section>
+</section>
+<br>
+<br>
+<br>
+<br>
+<!------- about ------> 
+<style>
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner-about{
+    width: 100%;
+    height: 89vh;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(p2.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.info {
+    width: 100%;
+    position: center;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.info h2 {
+    font-size: 80px;
+    font-family: Georgia, serif;
+    margin-top: 100px;
+}
+
+.info p{
+     margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 25px;
+    letter-spacing: 15px;
+}
+.h2{
+    color: white;
+    font-size: 100px;
+    font-family: Georgia, serif;
+    font-weight: 600;
+
+}
+.p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22p;
+    padding: 10px;
+    letter-spacing: 15PX;
+}
+ /* The grid: three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 98%;
+  height: 98%;
+  padding: 10px;
+}
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container-product {
+  position: relative;
+  width: 95%;
+  max-width: 300px;
+  padding-left: 25px;
+  margin-left: 0px;
+}
+
+.center {
+    display: grid;
+    place-items: center;  /* Center both horizontally and vertically */
+    height: 100vh;  /* Full viewport height */
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 85%;
+  height: 85%;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 85%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+  text-align: justify;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container-product:hover .overlay {
+  opacity: 1;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.about-col{
+    flex-basis: 31%;
+    background: #1a1a1a;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+    color:whitesmoke;
+}
+.about-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+.table, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-size: 15px;
+  font-family: Georgia, serif;
+  color:whitesmoke;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+}
+.table, th{
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-size: 15px;
+  font-family: Georgia, serif;
+  color:whitesmoke;
+  height: 65px;
+}
+.table.center {
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top:10px;
+
+.img {
+    height: 10px;
+    width: 20px;
+}
+}
+.container {
+        text-align: center;
+}
+.header{
+    color:whitesmoke;  
+    font-family: Georgia, serif; 
+    font-size:20px; 
+    text-align:center;
+}
+</style>
+<br>
+<br>
+<section id= "p2">
+        <div class="banner-about">
+        <section class="about">
+        <div class="info">
+            <h1 style="margin-top: 80px; font-size: 80px;">NOVAINE</h1>
+            <p1 style="font-size: 25px; letter-spacing: 15px; margin: 20px auto;"> WEBSITE DESCRIPTION</p1>
+        </div>
+    </div>
+<br>
+<br>
+<br>
+     <h1 style="color:whitesmoke;  font-family: Georgia, serif; font-size:25px; text-align:center;">FILIPINOS' 90s FASHION</h1>
+    <p style="text-align:center; font-size: 19px; letter-spacing: 10px;">OVERVIEW OF THE WEBSITE</p>    
+       
+    <div class="row">
+        <div class="about-col">
+            <p>Discover the essence of 90s fashion with our collection of inspired clothing. This website explores a timeless style that will add touch of nostalgia to your look. This website was established in January 2025 that will help you bring back the nostalgic feels of fashion. We, the Novaine, are your guide to your Everyday fashion.</p>
+        </div>
+         <div class="about-col">
+            <h1 style="color:white; text-align: center; font-size: 20px;"> The Proponents </h1>
+            <p>This website was created by 6 students enrolled in Bacherlor of Science in Office Administration program year 2024-2025 </p>
+        </div>
+          <div class="about-col">
+            <p>Proponents chose the 1990s because fashion trends at the time were renowned for relaxed and casual styles, such as apparel with darker color palettes and simpler patterns influenced by international pop culture, such as music and television. Denim was the fabric of choice throughout this period. It represents both casualness and versatility in everyday wear.</p>   
+        </div>
+    </div>
+<br>
+<br>
+ 
+<table class="center">
+    <div class="header">
+        <h1> Novaine Co. was developed by 2nd year BSOA2-1D students at Polytechnic University of the Philippines. </h1>
+        <div class="container">
+            <tr>
+             <th>The Proponents</th>
+             <th>Name</th>
+             <th>Section</th>
+             <th>Email</th>
+            </tr>
+
+        <tr>
+            <div class="img">
+            <td><img src="baldoz.png" alt="The Proponents" style="width:165px; height: 165px;"></td>
+            <td>Ms. Natividad Baldoz</td>
+            <td>BSOA 2-1D</td>
+            <td>baldoznatividad.0912@gmail.com</td>
+        </tr>
+       
+        <tr>
+            <div class="img">
+            <td><img src="guada.png" alt="The Proponents" style="width:195px; height: 165px;"></td>
+            <td>Ms. Angela Joy A. Guadalupe</td>
+            <td>BSOA 2-1D</td>
+            <td>angelajoy.guadalupe@gmail.com</td>
+        </tr>
+
+        <tr>
+            <div class="img">
+            <td><img src="lanuza.jpg" alt="The Proponents" style="width:165px; height: 165px;"></td>
+            <td>Ms. Raiza G. Lanuza</td>
+            <td>BSOA 2-1D</td>
+            <td>lanuzaraiza@gmail.com</td>
+        </tr>
+
+        <tr>
+            <div class="img">
+            <td><img src="lupig.jpg" alt="The Proponents" style="width:165px; height: 165px;"></td>
+            <td>Ms. Breazelle Mae I. Lupig</td>
+            <td>BSOA 2-1D</td>
+            <td>lupigbreazellemae@gmail.com</td>
+        </tr>
+
+        <tr>
+            <div class="img">
+            <td><img src="padilla.png" alt="The Proponents" style="width:165px; height: 165px;"></td>
+            <td>Ms. Rienzhel A. Padilla</td>
+            <td>BSOA 2-1D</td>
+            <td>rienzhelpadilla01@gmail.com</td>
+        </tr>
+
+        <tr>
+            <div class="img">
+            <td><img src="sabilao.jpg" alt="The Proponents" style="width:165px; height: 165px;"></td>
+            <td>Ms. Robelyn Nicole  S. Sabilao</td>
+            <td>BSOA 2-1D</td>
+            <td>sabilaorobelynnicole@gmail.com</td>
+        </tr>
+    </div>
+    </table>
+</section>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!------- contanct ------> 
+<style>
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner-contact{
+    width: 100%;
+    height: 89vh;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(p3.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.contact{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.message {
+    width: 100%;
+    position: center;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.message h4 {
+    font-size: 80px;
+    font-family: Georgia, serif;
+    margin-top: 100px;
+}
+
+.message p{
+     margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 25px;
+    letter-spacing: 15px;
+}
+.h4{
+    color: white;
+    font-size: 100px;
+    font-family: Georgia, serif;
+    font-weight: 600;
+
+}
+.p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22p;
+    padding: 10px;
+    letter-spacing: 15PX;
+}
+/* The grid: three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 98%;
+  height: 98%;
+  padding: 10px;
+}
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  padding-left: 20px;
+}
+
+.center {
+    display: grid;
+    place-items: center;  /* Center both horizontally and vertically */
+    height: 100vh;  /* Full viewport height */
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: 98%;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 87%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+  text-align: justify;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.header{
+    margin-top:0px;
+}
+.icon{
+    width: 60px;
+    position: center;
+    top: 5px;
+}
+</style>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section id= "p3">
+        <div class="banner-contact">
+        <section class="contact">
+        <div class="message">
+            <h4>VISIT US!</h4>
+            <p style="text-align:center; font-size: 19px; letter-spacing: 10px;">NOVAINE, WHERE THE GEMS OF THE PAST LIES ON </p>
+        </div>
+    </div>
+<section class="header">
+    <h5 style="font-family:Georgia, serif; font-size: 30px; text-align: center; color: whitesmoke";>Check This Out!</h5>
+    <p style="text-align:center; font-size: 20px; color:whitesmoke;">Be inspired and look for 90s fashion trends at novaine.com. Tag us in your sophisticated look! @novaine #Novainestyle. For more inquiries, email us at novaine.co.business@gmail.com or just lick the icons below!</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div class="icons">
+       <a href="https://x.com/novaineco_ph"> <img src="twt.png" width="50" height="50"></a>
+
+       <a href="https://www.instagram.com/novaine.co/"> <img src="ig.png" width="50" height="50"></a>
+      
+       <a href="https://www.youtube.com/@novaine.co_ph"> <img src="yt.png" width="50" height="50"></a>
+    </div>
+</section>
+</section>
+</main>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="footer">
+        <p style="text-align: center;">All rights reserved &copy; 2025</p>
+    </div>
+
+</body>
+</html>
+
+
